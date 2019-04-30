@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MMenu xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <MMenuItem app:mmt_id="@+id/navigation_user_center_vip"
+        app:mmt_icon="@drawable/ic_nav_menu_vip_24dp"
+        app:mmt_title="会员"/>
+
+    <MMenuItem app:mmt_id="@+id/navigation_user_center_mine"
+        app:mmt_icon="@drawable/ic_nav_menu_user_24dp"
+        app:mmt_title="我的"
+        app:mmt_main="true"/>
+
+    <MMenuItem app:mmt_id="@+id/navigation_user_center_task"
+        app:mmt_icon="@drawable/ic_nav_menu_task_24dp"
+        app:mmt_title="任务" />
+
+</MMenu>

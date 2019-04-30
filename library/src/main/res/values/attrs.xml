@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BottomBarView">
+        <attr name="bbv_menu" format="reference"/>
+        <attr name="bbv_itemTint" format="reference|color"/>
+        <attr name="bbv_itemLabelSize" format="dimension"/>
+        <attr name="bbv_itemIconSize" format="dimension"/>
+        <attr name="bbv_itemIconMainSize" format="dimension"/>
+        <attr name="bbv_backgroundColor" format="reference|color"/>
+        <attr name="bbv_itemBackground" format="reference|color"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="MMenuItem">
+        <attr name="mmt_title" format="string"/>
+        <attr name="mmt_icon" format="reference"/>
+        <attr name="mmt_id" format="reference"/>
+        <attr name="mmt_main" format="boolean"/>
+    </declare-styleable>
+</resources>

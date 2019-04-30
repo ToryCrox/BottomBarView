@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="WidgetBottomBarView">
+        <item name="bbv_itemTint">@color/bbv_color_button_tint</item>
+        <item name="bbv_itemLabelSize">11dp</item>
+        <item name="bbv_itemIconSize">28dp</item>
+        <item name="bbv_itemIconMainSize">40dp</item>
+        <item name="bbv_itemBackground">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+</resources>
